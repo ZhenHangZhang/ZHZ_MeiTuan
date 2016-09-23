@@ -29,7 +29,7 @@
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="j1x-Nr-Ry7">
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </tableView>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yac-8I-FU6">
+                <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Yac-8I-FU6">
                     <connections>
                         <action selector="btnClick:" destination="-1" eventType="touchUpInside" id="k26-Yq-HBL"/>
                     </connections>
@@ -42,7 +42,7 @@
                 <constraint firstItem="j1x-Nr-Ry7" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="8P9-kE-Bob"/>
                 <constraint firstItem="Yac-8I-FU6" firstAttribute="top" secondItem="4jf-u7-Drb" secondAttribute="bottom" id="Acb-Rx-yH9"/>
                 <constraint firstAttribute="bottom" secondItem="j1x-Nr-Ry7" secondAttribute="bottom" id="Fo4-e3-gdq"/>
-                <constraint firstItem="4jf-u7-Drb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="60" id="HES-XF-mQf"/>
+                <constraint firstItem="4jf-u7-Drb" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="15" id="HES-XF-mQf"/>
                 <constraint firstAttribute="trailing" secondItem="4jf-u7-Drb" secondAttribute="trailing" constant="10" id="QqB-RO-yPd"/>
                 <constraint firstItem="j1x-Nr-Ry7" firstAttribute="top" secondItem="4jf-u7-Drb" secondAttribute="bottom" constant="15" id="W1K-eg-hKz"/>
                 <constraint firstAttribute="trailing" secondItem="Yac-8I-FU6" secondAttribute="trailing" id="rfU-e5-49f"/>
@@ -51,7 +51,7 @@
             </constraints>
             <nil key="simulatedStatusBarMetrics"/>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-            <point key="canvasLocation" x="-177" y="-213"/>
+            <point key="canvasLocation" x="-569" y="-389"/>
         </view>
     </objects>
 </document>
